@@ -23,8 +23,8 @@ Uncomment to change filter"""
 #     if k == 27:
 #         break
 
-low_thresh = np.array([90,90,2])
-high_thresh = np.array([180, 255, 255])
+low_thresh = np.array([90,100,100])
+high_thresh = np.array([150, 255, 255])
 
 start = time.time()
 
